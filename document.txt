@@ -1,0 +1,57 @@
+C:\Users\mtous>node -v
+v20.10.0
+
+C:\Users\mtous>npm -v
+10.2.3
+
+C:\Users\mtous> mongosh for checking ki mongodb install hai ki nahi =>  mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.1
+
+
+npm init
+npm i bcrypt cloudinary cookie-parser cors dotenv express express-fileupload jsonwebtoken mongoose node-cron nodemailer validator
+bcrypt -> password/daata ko hashed aur encrypt aur decrypt krne ke 
+cookie-parser -> jo token generate hote hai unko get aur set krne ke liye 
+cors-> backend ko frontend se jodne ke liye 
+dotenv-> secret rakne ke liye 
+express-fileupload-> multur ka alternative 
+jsonwebtoken-> token ko generate krne ke liye 
+mongoose -> node js ko mongodb se connect krne ke liye 
+node-crone -> automation ke liye 
+nodemailer -> email send krne ke liye 
+validator ->validate check krne ke liye jese email validate krne ke liye , validate aap frontend se bhi kr shakte hai aaj kal 
+  
+node-cron used for automation yaani sheduling perpose 
+express-fileupload : cloudinary se file ko get krne ke liye hota hai  , ye multer ka alternative hai 
+
+
+npm run dev
+ "type": "module", // jab aap type module krt dete ho to aapko piche ek .js extion lgani padti hai varna error dega 
+  "scripts": {
+   "start": "node server.js",
+   "dev": "nodemon server.js"
+  },
+
+
+
+
+
+
+
+ req.user = await User.findById(decoded.id);
+    req.tousif = await User.findById(decoded.id);
+
+    // console.log(req.user);
+    // console.log(req.tousif);
+    same answer
+
+
+
+
+//////////////////////////////////////////////////////////////frontend//////////05:15:00
+npm create vite@latest ./
+npm install  for node modules ko laane ke liye 
+npm install  react-redux  @reduxjs/toolkit axios react-router-dom react-spinners react-toastify
+npm run dev
+delete assets folder
+delete index.css
+clean all app.css me se 
